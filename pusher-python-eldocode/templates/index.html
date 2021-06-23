@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ЭЛЬДОCODE</title>
+</head>
+<body>
+	<!-- Add to orders -->
+	<form method="post" action="/orders">
+		<h3>Консультация проведена</h3>
+		<input type="number" name="units" placeholder="units"><br>
+		<input type="submit" name="Submit">
+	</form>
+	<!-- Add to revenues -->
+	<form method="post" action="/message">
+		<h3>Добавить новое сообщение</h3>
+		<input type="text" name="name" placeholder="name here"><br>
+		<textarea  name="message" placeholder="message here"></textarea><br>
+		<input type="submit" name="Submit">
+	</form>
+	<!-- Add to message -->
+	<form method="post" action="/customer">
+		<h3>Добавить нового клиента</h3>
+		<input type="text" name="name" placeholder="Сотрудник"><br>
+		<input type="text" name="office" placeholder="Отдел"><br>
+		<input type="text" name="tel" placeholder="Клиент"><br>
+		<input type="text" name="product" placeholder="Товары"><br>
+		<input type="submit" name="Submit">
+	</form>
+</body>
+</html>
